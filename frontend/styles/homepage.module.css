@@ -1,0 +1,13 @@
+.yellow {
+  color: darkslategrey;
+}
+.wrapper a {
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+.wrapper {
+  background-color: antiquewhite;
+  margin: 5px 1em;
+  padding: 1em;
+}

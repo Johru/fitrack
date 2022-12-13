@@ -1,0 +1,44 @@
+.page {
+  min-height: 98vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  place-items: center;
+}
+.container {
+  padding: 0 0rem;
+  height: 100%;
+}
+
+.footer {
+  display: grid;
+  justify-items: center;
+}
+
+.footer hr {
+  border-top: 2px solid black;
+  margin: 1vh 0vw;
+  width: 90vw;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: rgb(52, 71, 87);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  right: 102%;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

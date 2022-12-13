@@ -1,0 +1,11 @@
+.wrapper {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.topRowItem {
+  background-color: rgb(207, 192, 172);
+  border: 1px solid black;
+  font-weight: bold;
+}
